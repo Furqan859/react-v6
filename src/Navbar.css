@@ -1,0 +1,27 @@
+body{
+    
+    background-color: aliceblue;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+   
+    text-justify: auto;
+    background-color:beige;
+    margin: 20px;
+    padding:20px;
+    font-size: 26px;
+    text-transform: capitalize;
+    
+    
+}
+
+li > NavLink{
+    text-decoration: none;
+}
