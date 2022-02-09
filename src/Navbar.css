@@ -31,22 +31,3 @@ li{
     color: green;
 }
 
-
-
-
-.contact{
-    color: red;
-    text-decoration: none;
-}
-.contact:active{
-    color: green;
-}
-
-
-.about{
-    color: red;
-    text-decoration: none;
-}
-.about:active{
-    color: green;
-}

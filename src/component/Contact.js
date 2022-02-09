@@ -3,7 +3,7 @@ import React from 'react';
 function Contact(props) {
     return (
         <h1>
-Contact Page
+            Contact Page
         </h1>
     );
 }
