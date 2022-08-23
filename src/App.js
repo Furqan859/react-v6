@@ -15,7 +15,7 @@ function App() {
   let isLoggedIn = true;
 
   let data = {
-    'st': 'this is user is not loged in'
+    'st': 'thi user is not loged in'
   }
   return (
     <div className="App">
@@ -26,7 +26,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/post/:category" element={<Post />} />
-          <Route path="/post/:category/:id" element={<Post />} />
+          <Route path="/post/:category/:id" element={<Post />} />``
 
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />

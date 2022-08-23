@@ -2,9 +2,9 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
 function Login() {
-    let location = useLocation()
-    console.log(location);
-    let navigation = useNavigate()
+        let location = useLocation()
+        console.log(location);
+        let navigation = useNavigate()
     let data = {
         'name': 'Furqan'
     }
